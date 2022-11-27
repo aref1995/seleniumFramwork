@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-26T14:26:36 EET" name="Default suite" finished-at="2022-11-26T14:26:37 EET" duration-ms="860">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6150c3ec]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-26T14:26:36 EET" name="Default test" finished-at="2022-11-26T14:26:37 EET" duration-ms="860">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:runner.TestRunner@6150c3ec]" started-at="2022-11-26T14:26:33 EET" name="startDriver" finished-at="2022-11-26T14:26:36 EET" duration-ms="3112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@6150c3ec]" started-at="2022-11-26T14:26:36 EET" name="setUpClass" finished-at="2022-11-26T14:26:37 EET" duration-ms="664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a08efdc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6150c3ec]" started-at="2022-11-26T14:26:37 EET" name="tearDownClass" finished-at="2022-11-26T14:26:37 EET" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

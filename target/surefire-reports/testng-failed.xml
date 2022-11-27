@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopcommerce regression suite]" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Regression Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.RegisteredUserCheckOutProductTest">
+        <methods>
+          <include name="ResiteredUserCanCheckOutProduct"/>
+          <include name="screenshotOnFailuer"/>
+          <include name="startDriver"/>
+          <include name="UserCanSearchWithAutoSuggest"/>
+          <include name="usercanregistersuccessfully"/>
+          <include name="UserCanAddProductToShoppingCart"/>
+        </methods>
+      </class> <!-- tests.RegisteredUserCheckOutProductTest -->
+      <class name="tests.MyAccountTest">
+        <methods>
+          <include name="screenshotOnFailuer"/>
+          <include name="startDriver"/>
+          <include name="registeredusercanchangepassword"/>
+          <include name="registeredUserCanLogout"/>
+          <include name="usercanregistersuccessfully"/>
+          <include name="RegisteredUserCanLogin"/>
+        </methods>
+      </class> <!-- tests.MyAccountTest -->
+      <class name="tests.ProductReviewTest">
+        <methods>
+          <include name="screenshotOnFailuer"/>
+          <include name="startDriver"/>
+          <include name="usercanregistersuccessfully"/>
+          <include name="registeredUserCanLogout"/>
+          <include name="usercansearchforaproduct"/>
+          <include name="RegisteredUserCanAddReviewForProudct"/>
+          <include name="RegisteredUserCanLogin"/>
+        </methods>
+      </class> <!-- tests.ProductReviewTest -->
+      <class name="tests.UserRegisterationTest">
+        <methods>
+          <include name="screenshotOnFailuer"/>
+          <include name="startDriver"/>
+          <include name="RegisteredUserCanLogin"/>
+        </methods>
+      </class> <!-- tests.UserRegisterationTest -->
+      <class name="tests.EmailFriendTest">
+        <methods>
+          <include name="usercansearchforaproduct"/>
+          <include name="screenshotOnFailuer"/>
+          <include name="RegisteredUserCanSendproudcetToFriend"/>
+          <include name="startDriver"/>
+          <include name="registeredUserCanLogout"/>
+          <include name="usercanregistersuccessfully"/>
+        </methods>
+      </class> <!-- tests.EmailFriendTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [nopcommerce regression suite] -->

@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [nopcommerce regression suite]">
-  <parameter name="browser" value="chrome"/>
+  <parameter name="browser" value="headless"/>
   <test thread-count="5" name="Regression Test(failed)">
     <classes>
-      <class name="tests.UserRegisterationTestWithDDTAndJSON">
+      <class name="tests.ContactUsTest">
         <methods>
-          <include name="usercanregistersuccessfully"/>
           <include name="screenshotOnFailuer"/>
+          <include name="setUpClass"/>
           <include name="startDriver"/>
+          <include name="tearDownClass"/>
+          <include name="UserCanContactUs"/>
         </methods>
-      </class> <!-- tests.UserRegisterationTestWithDDTAndJSON -->
+      </class> <!-- tests.ContactUsTest -->
     </classes>
   </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [nopcommerce regression suite] -->

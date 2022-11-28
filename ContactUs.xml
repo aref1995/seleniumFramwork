@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite  name="nopcommerce regression suite">
-	<parameter name ="browser" value="chrome"></parameter>
+	<parameter name ="browser" value="headless"></parameter>
   <test name="Regression Test">
     <classes>
       <class name="tests.ContactUsTest"/>

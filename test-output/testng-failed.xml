@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [nopcommerce regression suite]">
-  <parameter name="browser" value="headless"/>
+  <parameter name="browser" value="chrome-headless"/>
   <test thread-count="5" name="Regression Test(failed)">
     <classes>
       <class name="tests.ContactUsTest">

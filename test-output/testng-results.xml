@@ -1,35 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-26T14:26:36 EET" name="Default suite" finished-at="2022-11-26T14:26:37 EET" duration-ms="860">
+  <suite started-at="2022-11-28T13:20:40 EET" name="nopcommerce regression suite" finished-at="2022-11-28T13:20:42 EET" duration-ms="2182">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6150c3ec]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.ContactUsTest@c730b35]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-11-26T14:26:36 EET" name="Default test" finished-at="2022-11-26T14:26:37 EET" duration-ms="860">
-      <class name="runner.TestRunner">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:runner.TestRunner@6150c3ec]" started-at="2022-11-26T14:26:33 EET" name="startDriver" finished-at="2022-11-26T14:26:36 EET" duration-ms="3112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@6150c3ec]" started-at="2022-11-26T14:26:36 EET" name="setUpClass" finished-at="2022-11-26T14:26:37 EET" duration-ms="664" status="PASS">
+    <test started-at="2022-11-28T13:20:40 EET" name="Regression Test" finished-at="2022-11-28T13:20:42 EET" duration-ms="2182">
+      <class name="tests.ContactUsTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.ContactUsTest@c730b35]" started-at="2022-11-28T13:20:35 EET" name="startDriver" finished-at="2022-11-28T13:20:40 EET" duration-ms="4908" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5a08efdc]]>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.ContactUsTest@c730b35]" started-at="2022-11-28T13:20:40 EET" name="setUpClass" finished-at="2022-11-28T13:20:40 EET" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@26a262d6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6150c3ec]" started-at="2022-11-26T14:26:37 EET" name="tearDownClass" finished-at="2022-11-26T14:26:37 EET" duration-ms="131" status="PASS">
+        <test-method signature="UserCanContactUs()[pri:0, instance:tests.ContactUsTest@c730b35]" started-at="2022-11-28T13:20:40 EET" name="UserCanContactUs" finished-at="2022-11-28T13:20:42 EET" duration-ms="1982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanContactUs -->
+        <test-method is-config="true" signature="screenshotOnFailuer(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@c730b35]" started-at="2022-11-28T13:20:42 EET" name="screenshotOnFailuer" finished-at="2022-11-28T13:20:42 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanContactUs status=SUCCESS method=ContactUsTest.UserCanContactUs()[pri:0, instance:tests.ContactUsTest@c730b35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailuer -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.ContactUsTest@c730b35]" started-at="2022-11-28T13:20:42 EET" name="tearDownClass" finished-at="2022-11-28T13:20:42 EET" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runner.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- tests.ContactUsTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- nopcommerce regression suite -->
 </testng-results>

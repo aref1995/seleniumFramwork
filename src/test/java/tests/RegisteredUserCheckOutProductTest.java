@@ -27,7 +27,7 @@ public class RegisteredUserCheckOutProductTest extends TestBase{
 		homeobject = new HomePage(driver);
 		homeobject.openregisterationPage();
 		registerobject=new UserRegisterationPage(driver);
-		registerobject.userregisteration("Ahmed", "Aref", "ahmedaref5@gmail.com", "12345678");
+		registerobject.userregisteration("Ahmed", "Aref", "ahmedaref9@gmail.com", "12345678");
 		Assert.assertTrue(registerobject.succsmessage.getText().contains("Your registration completed"));
 	}
 	
